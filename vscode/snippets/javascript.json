@@ -1,0 +1,78 @@
+{
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	"Deep equal assert": {
+		"prefix": "de",
+		"body": [
+			"assert.deepEqual($1, {});"
+		],
+		"description": "Deep equal assertion"
+	},
+	"Equal assert": {
+		"prefix": "ae",
+		"body": [
+			"assert.equal($1, $2);"
+		],
+		"description": "Equality assertion"
+	},
+	"Import *co library": {
+		"prefix": "ico",
+		"body": [
+			"import co from 'co';",
+			"$1"
+		],
+		"description": "Import *co library"
+	},
+	"Import styled-components": {
+		"prefix": "isc",
+		"body": [
+			"import styled from 'styled-components';",
+			"$1"
+		],
+		"description": "Import styled-components library"
+	},
+	"Create new Promise": {
+		"prefix": "np",
+		"body": [
+			"new Promise((resolve, reject) => {$1});"
+		],
+		"description": "New Promise"
+	},
+	"Return new Promise": {
+		"prefix": "rnp",
+		"body": [
+			"return new Promise((resolve, reject) => {$1});"
+		],
+		"description": "Return new promise"
+	},
+	"Default callback handler": {
+		"prefix": "dcb",
+		"body": [
+			"(err, res) => (!err) ? resolve(res) : reject(err))"
+		],
+		"description": "Default callback handler"
+	},
+	"Mocha test case with *co": {
+		"prefix": "tco",
+		"body": [
+			"it('$1', () => co(function* () {$2}));"
+		],
+		"description": "Mocha test case with *co"
+	},
+	"Mocha only test case with *co": {
+		"prefix": "toco",
+		"body": [
+			"it.only('$1', () => co(function* () {$2}));"
+		],
+		"description": "Mocha only test case with *co"
+	},
+	"Log 'Here'": {
+		"prefix": "clh",
+		"body": [
+			"console.log('Here$1');"
+		],
+		"description": "Mocha only test case with *co"
+	}
+}

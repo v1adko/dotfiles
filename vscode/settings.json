@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 11,
+    "workbench.colorTheme": "Afterglow",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "vs-seti",
+    "editor.tabCompletion": true,
+    "editor.snippetSuggestions": "top",
+    "editor.scrollBeyondLastLine": false,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [100],
+    "editor.minimap.enabled": false,
+    "window.newWindowDimensions": "fullscreen",
+    "terminal.integrated.env.osx": {
+        "GOOGLE_API_KEY": ""
+    },
+    "prettier.singleQuote": true
+}
