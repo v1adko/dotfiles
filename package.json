@@ -1,0 +1,19 @@
+{
+    "name": "v1adko-dotfiles",
+    "version": "0.1.0",
+    "description": "My Dotfiles",
+    "private": true,
+    "repository": "github:v1adko/dotfiles",
+    "author": "Vlad Kolbaya <vlad.kolbaya@gmail.com> (https://github.com/v1adko)",
+    "engines": {
+      "npm": "5.3.0",
+      "node": "8.6.0",
+      "yarn": "1.2.1"
+    },
+    "scripts": {
+      "install:vscode-extensions": "yarn install:vscode-extensions-permissions && yarn install:vscode-extensions-shell",
+      "install:vscode-extensions-permissions": "chmod +x ./vscode/scripts/install-extensions.sh",
+      "install:vscode-extensions-shell": "./vscode/scripts/install-extensions.sh"
+    }
+  }
+  
