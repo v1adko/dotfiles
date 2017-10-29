@@ -11,6 +11,7 @@
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "window.newWindowDimensions": "fullscreen",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.env.osx": {
         "GOOGLE_API_KEY": ""
     },
