@@ -1,7 +1,7 @@
 # Dotfiles
 
 Here I will keep the basic tools, links and config files in order to make transfer to a new MacOS system faster.  
-My editor of choice at the moment is [Visual Studio Code](https://github.com/Microsoft/vscode) so most of the config is for it.
+My editor of choice at the moment is [Visual Studio Code](#vs-code) so most of the config is for it.
 
 #### Terminal
 
@@ -21,7 +21,7 @@ I also modify colors of the terminal window to use [#07373e](http://www.color-he
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
   - Giving correct [permissions](https://stackoverflow.com/a/29003511) to the db folder
 
-#### VS Code
+#### [VS Code](https://github.com/Microsoft/vscode)
 ##### Settings Backup Restore
 
 To restore all settings, keybindings and snippets run  
