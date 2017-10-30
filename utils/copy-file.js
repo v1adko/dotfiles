@@ -1,21 +1,19 @@
 const fs = require('fs');
 const path = require('path');
 
-const copy = (name, from, to) => {
+const copy = (from, to) => {
   let rs = null;
   let ws = null;
-  const fromPath = path.resolve(__dirname, from + name);
-  const toPath = path.resolve(__dirname, to + name);
 
   try {
-    rs = fs.createReadStream(fromPath);
+    rs = fs.createReadStream(from);
   } catch (err) {
     console.error(err);
     return;
   }
 
   try {
-    ws = fs.createWriteStream(toPath);
+    ws = fs.createWriteStream(to);
   } catch (err) {
     console.error(err);
     return;

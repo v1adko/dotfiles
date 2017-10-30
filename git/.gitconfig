@@ -1,0 +1,17 @@
+[alias]
+	co = checkout
+	br = branch
+	cm = commit
+	st = status
+[user]
+	username = v1adko
+	name = Vlad Kolbaya
+	email = vlad.kolbaya@gmail.com
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "

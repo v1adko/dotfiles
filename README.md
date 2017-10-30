@@ -30,20 +30,10 @@ I also modify colors of the terminal window to use [#07373e](http://www.color-he
 
 #### Git
 
-Setup [aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
-```
-git config --global alias.co checkout &&
-git config --global alias.br branch &&
-git config --global alias.cm commit &&
-git config --global alias.st status
-```
-
-Setup a user
-```
-git config --global user.username "v1adko" &&
-git config --global user.name "Vlad Kolbaya" &&
-git config --global user.email vlad.kolbaya@gmail.com
-```
+Running `yarn restore:git-config` will:
+1) Setup common [aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
+2) Fill my public user info
+3) Setup VSCode as a default [mergetool](https://stackoverflow.com/a/44549734)
 
 #### VS Code
 
@@ -70,8 +60,8 @@ To install all extensions specified in [extensions.yml](./vscode/extensions.yml)
 - [ ] Expand repo to other possible [dotfiles](https://dotfiles.github.io/) if needed
 - [ ] Add core project .prettierrc, .gitignore and possibly others
 - [ ] Config VIM theme
-- [ ] Describe my git aliasses (or partially copy config)
-- [ ] VSCode Run Current test setup
+- [x] Describe my git aliasses (or partially copy config)
+- [x] VSCode Run Current test setup
 - [ ] Possible setting sync via GitHub gist - [reference](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [ ] Debugger config guide for VS Code
 - [ ] Make a way to easily export (update) any current VS config to the files in the repo
