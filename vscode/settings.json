@@ -15,5 +15,6 @@
     "terminal.integrated.env.osx": {
         "GOOGLE_API_KEY": ""
     },
-    "prettier.singleQuote": true
+    "prettier.singleQuote": true,
+    "runCurrentTest.run": "yarn test:single ${relativeTestPath} --watch"
 }
