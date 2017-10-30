@@ -47,4 +47,5 @@ To install all extensions specified in [extensions.yml](./vscode/extensions.yml)
 - [ ] VSCode Run Current test setup
 - [ ] Possible setting sync via GitHub gist - [reference](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 - [ ] Debugger config guide for VS Code
+- [ ] Make a way to easily export (update) any current VS config to the files in the repo
 - [ ] Ironically move all of this to Issues :)
