@@ -9,6 +9,18 @@ I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) as
 My terminal theme of choise is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation).  
 I also modify background colors of the terminal window to use [#07373e](http://www.color-hex.com/color/07373e) for background with 10% blur and opacity.
 
+#### Tools
+- [Terminal](#terminal)
+- [Homebrew](https://brew.sh/index.html)
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/en/docs/install)
+- Global node modules:
+  - [ncu](https://www.npmjs.com/package/npm-check-updates)
+  - [gtop](https://www.npmjs.com/package/gtop)
+- [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
+  - Giving correct [permissions](https://stackoverflow.com/a/29003511) to the db folder
+
 #### VS Code
 ##### Settings Backup Restore
 
