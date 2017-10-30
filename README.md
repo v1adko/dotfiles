@@ -42,6 +42,7 @@ To install all extensions specified in [extensions.yml](./vscode/extensions.yml)
 - [x] Automatic config export/import scripts (cli) for VS Code
 - [ ] Expand repo to other possible [dotfiles](https://dotfiles.github.io/) if needed
 - [ ] Add core project .prettierrc, .gitignore and possibly others
+- [ ] Config VIM theme
 - [ ] Describe my git aliasses (or partially copy config)
 - [ ] VSCode Run Current test setup
 - [ ] Possible setting sync via GitHub gist - [reference](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
