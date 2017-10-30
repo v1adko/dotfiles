@@ -45,6 +45,8 @@ git config --global user.name "Vlad Kolbaya" &&
 git config --global user.email vlad.kolbaya@gmail.com
 ```
 
+Setup a [diff/mergetool](https://stackoverflow.com/a/44549734) if don't want to download XCode.
+
 #### VS Code
 
 1) [Download](https://github.com/Microsoft/vscode) the editor
