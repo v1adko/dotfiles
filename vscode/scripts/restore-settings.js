@@ -1,17 +1,20 @@
-
-const copyFile = require('./copy-file');
+const path = require('path');
+const copyFile = require('../../utils/copy-file');
 const getVsCodeUserDir = require('./get-user-dirrectory');
 
 const vsCodeUserDirectory = getVsCodeUserDir();
 console.log('==>  VSCode directory detected as .' + vsCodeUserDirectory);
 
-console.log('==>  Copying settings.js');
-copyFile('settings.json', '../', vsCodeUserDirectory);
+const copyToVsCode = (file) => {
+  console.log(`==>  Copying ${file}`);
+  copyFile(
+    path.resolve(__dirname + '/../' + file),
+    vsCodeUserDirectory + file
+  );
+}
 
-console.log('==>  Copying keybindings.js');
-copyFile('keybindings.json', '../', vsCodeUserDirectory);
-
-console.log('==>  Copying snippets.js');
-copyFile('javascript.json', '../snippets/', vsCodeUserDirectory + 'snippets/');
+copyToVsCode('settings.json');
+copyToVsCode('keybindings.json');
+copyToVsCode('snippets/javascript.json');
 
 console.log('✅ Reload VSCode');

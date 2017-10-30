@@ -11,6 +11,7 @@
       "yarn": "1.2.1"
     },
     "scripts": {
+      "restore:git-config": "node ./git/restore-git",
       "restore:vscode-settings": "node ./vscode/scripts/restore-settings",
       "restore:vscode-extensions": "yarn install:vscode-extensions-permissions && yarn install:vscode-extensions-shell",
       "install:vscode-extensions-permissions": "chmod +x ./vscode/scripts/install-extensions.sh",
