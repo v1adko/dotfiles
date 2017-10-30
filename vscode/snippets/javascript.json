@@ -1,37 +1,29 @@
 {
-	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
 	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
 	// same ids are connected.
 	"Deep equal assert": {
-		"prefix": "de",
+		"prefix": "ee",
 		"body": [
-			"assert.deepEqual($1, {});"
+			"expect($1).toEqual({});"
 		],
 		"description": "Deep equal assertion"
 	},
 	"Equal assert": {
-		"prefix": "ae",
+		"prefix": "eb",
 		"body": [
-			"assert.equal($1, $2);"
+			"exect($1).toBe($2);"
 		],
 		"description": "Equality assertion"
 	},
-	"Import *co library": {
-		"prefix": "ico",
+	"Import a library": {
+		"prefix": "imp",
 		"body": [
-			"import co from 'co';",
+			"import $1 from '$1';",
 			"$1"
 		],
-		"description": "Import *co library"
-	},
-	"Import styled-components": {
-		"prefix": "isc",
-		"body": [
-			"import styled from 'styled-components';",
-			"$1"
-		],
-		"description": "Import styled-components library"
+		"description": "Import a library"
 	},
 	"Create new Promise": {
 		"prefix": "np",
@@ -54,25 +46,41 @@
 		],
 		"description": "Default callback handler"
 	},
-	"Mocha test case with *co": {
-		"prefix": "tco",
+	"Async test": {
+		"prefix": "at",
 		"body": [
-			"it('$1', () => co(function* () {$2}));"
+			"it('$1', async () => {$2});"
 		],
-		"description": "Mocha test case with *co"
+		"description": "Async test"
 	},
-	"Mocha only test case with *co": {
-		"prefix": "toco",
+	"Async only test": {
+		"prefix": "aot",
 		"body": [
-			"it.only('$1', () => co(function* () {$2}));"
+			"it.only('$1', async () => {$2})"
 		],
-		"description": "Mocha only test case with *co"
+		"description": "Async only test"
+	},
+  "Log": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1);"
+		],
+		"description": "Console log"
 	},
 	"Log 'Here'": {
 		"prefix": "clh",
 		"body": [
 			"console.log('Here$1');"
 		],
-		"description": "Mocha only test case with *co"
+		"description": "Logs 'Here' to console"
+  },
+  // React
+  "Import styled-components": {
+		"prefix": "isc",
+		"body": [
+			"import styled from 'styled-components';",
+			"$1"
+		],
+		"description": "Import styled-components library"
 	}
 }
