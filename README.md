@@ -21,7 +21,12 @@ I also modify colors of the terminal window to use [#07373e](http://www.color-he
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
   - Giving correct [permissions](https://stackoverflow.com/a/29003511) to the db folder
 
-#### [VS Code](https://github.com/Microsoft/vscode)
+#### VS Code
+
+1) [Download](https://github.com/Microsoft/vscode) the editor
+2) First - enable `code` command in the terminal by doing `Shift + CMD + P` -> `'Install "code" command in PATH'`  
+3) Install [tools](#tools) - node and yarn in particular.
+
 ##### Settings Backup Restore
 
 To restore all settings, keybindings and snippets run  
