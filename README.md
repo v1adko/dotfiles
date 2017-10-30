@@ -28,6 +28,23 @@ I also modify colors of the terminal window to use [#07373e](http://www.color-he
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
   - Giving correct [permissions](https://stackoverflow.com/a/29003511) to the db folder
 
+#### Git
+
+Setup [aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
+```
+git config --global alias.co checkout &&
+git config --global alias.br branch &&
+git config --global alias.cm commit &&
+git config --global alias.st status
+```
+
+Setup a user
+```
+git config --global user.username "v1adko" &&
+git config --global user.name "Vlad Kolbaya" &&
+git config --global user.email vlad.kolbaya@gmail.com
+```
+
 #### VS Code
 
 1) [Download](https://github.com/Microsoft/vscode) the editor
@@ -47,17 +64,6 @@ To install all extensions specified in [extensions.yml](./vscode/extensions.yml)
 `yarn restore:vscode-extensions`
 
 <img alt="VS Code Extensions" src="./img/vscode.png" width="900px">
-
-#### Git
-
-Setup [aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
-`
-git config --global alias.co checkout && \
-git config --global alias.br branch && \
-git config --global alias.cm commit && \
-git config --global alias.cma commit -am && \
-git config --global alias.st status
-`
 
 #### TODO:
 - [x] Automatic config export/import scripts (cli) for VS Code
