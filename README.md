@@ -9,6 +9,13 @@ I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) as
 My terminal theme of choise is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation).  
 I also modify colors of the terminal window to use [#07373e](http://www.color-hex.com/color/07373e) for background with 10% blur and opacity.
 
+1) Install [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
+2) Download a [theme](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm-zsh/master/honukai.zsh-theme)
+3) Move the theme to the themes folder
+   `mv ./honukai.zsh-theme ./.oh-my-zsh/themes/`
+4) Set theme to honukai  
+   `vi .zshrc` -> `ZSH_THEME=honukai`
+
 #### Tools
 - [Terminal](#terminal)
 - [Homebrew](https://brew.sh/index.html)
@@ -21,11 +28,31 @@ I also modify colors of the terminal window to use [#07373e](http://www.color-he
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition-with-homebrew)
   - Giving correct [permissions](https://stackoverflow.com/a/29003511) to the db folder
 
+#### Git
+
+Setup [aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
+```
+git config --global alias.co checkout &&
+git config --global alias.br branch &&
+git config --global alias.cm commit &&
+git config --global alias.st status
+```
+
+Setup a user
+```
+git config --global user.username "v1adko" &&
+git config --global user.name "Vlad Kolbaya" &&
+git config --global user.email vlad.kolbaya@gmail.com
+```
+
 #### VS Code
 
 1) [Download](https://github.com/Microsoft/vscode) the editor
-2) First - enable `code` command in the terminal by doing `Shift + CMD + P` -> `'Install "code" command in PATH'`  
-3) Install [tools](#tools) - node and yarn in particular.
+2) Clone this repo
+  `git clone https://github.com/v1adko/dotfiles.git && cd /dotfiles`
+3) Enable `code` command in the terminal by doing `Shift + CMD + P` -> `'Install "code" command in PATH'`  
+4) Install [tools](#tools) - node and yarn in particular.
+5) Run the [restore](#settings-backup-restore) commands
 
 ##### Settings Backup Restore
 
