@@ -16,5 +16,7 @@
         "GOOGLE_API_KEY": ""
     },
     "prettier.singleQuote": true,
-    "runCurrentTest.run": "yarn test:single ${relativeTestPath} --watch"
+    "sync.autoDownload": false,
+    "sync.autoUpload": true,
+    "sync.quietSync": false
 }

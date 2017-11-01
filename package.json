@@ -10,7 +10,9 @@
       "node": "8.6.0",
       "yarn": "1.2.1"
     },
+    "settings-gist-id": "88f51f173485d9ab1d3f2fafcbf22c59",
     "scripts": {
+      "install:sync": "code --install-extension Shan.code-settings-sync",
       "restore:git-config": "node ./git/restore-git",
       "restore:vscode-settings": "node ./vscode/scripts/restore-settings",
       "restore:vscode-extensions": "yarn install:vscode-extensions-permissions && yarn install:vscode-extensions-shell",

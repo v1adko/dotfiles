@@ -1,17 +1,27 @@
 [alias]
-	co = checkout
-	br = branch
-	cm = commit
-	st = status
+    co = checkout
+    br = branch
+    cm = commit -m
+    cma = commit -am
+    st = status
+    po = push origin
+    pom = push origin master
+    plo = pull origin
+    plom = pull origin master
+    com = checkout master
+    uncommit = reset --soft ^HEAD
+    untag = tag -d
+    # Will throw, but at least show the :refs/ which I always forget
+    untag-remote = push origin :refs/tags/
 [user]
-	username = v1adko
-	name = Vlad Kolbaya
-	email = vlad.kolbaya@gmail.com
+    username = v1adko
+    name = Vlad Kolbaya
+    email = vlad.kolbaya@gmail.com
 [merge]
-	tool = vscode
+    tool = vscode
 [mergetool "vscode"]
-	cmd = "code --wait "
+    cmd = "code --wait "
 [diff]
-	tool = vscode
+    tool = vscode
 [difftool "vscode"]
-	cmd = "code --wait --diff  "
+    cmd = "code --wait --diff  "
