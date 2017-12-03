@@ -9,7 +9,7 @@
     plo = pull origin
     plom = pull origin master
     com = checkout master
-    rom = reset --hard origin master
+    rom = git reset --hard origin/master
     uncommit = reset --soft ^HEAD
     untag = tag -d
     # Will throw, but at least show the :refs/ which I always forget
