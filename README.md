@@ -7,6 +7,14 @@ My editor of choice at the moment is [Visual Studio Code](#vs-code) so most of t
 
 I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) as my shell with [Hyper](https://hyper.is/).  
 I use several custom [plugins](/hyper/hyper.js) that should be added manually.
+My ZSH theme of choise is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation).  
+
+1) Install [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
+2) Download a [theme](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm-zsh/master/honukai.zsh-theme)
+3) Move the theme to the themes folder
+   `mv ./honukai.zsh-theme ./.oh-my-zsh/themes/`
+4) Set theme to honukai  
+   `vi .zshrc` -> `ZSH_THEME=honukai`
 
 #### Tools
 - [Terminal](#terminal)
