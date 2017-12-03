@@ -5,13 +5,12 @@ My editor of choice at the moment is [Visual Studio Code](#vs-code) so most of t
 
 #### Terminal
 
-I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) as my shell with [Hyper](https://hyper.is/).  
-I use several custom [plugins](/hyper/hyper.js) that should be added manually.
-My ZSH theme of choise is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation).  
+I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) with [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation) theme as my primary shell in [Hyper](https://hyper.is/) and VSCode's integrated terminal.  
+I use several custom [plugins](/hyper/hyper.js).
 
 1) Install [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
 2) Download a [theme](https://raw.githubusercontent.com/oskarkrawczyk/honukai-iterm-zsh/master/honukai.zsh-theme)
-3) Move the theme to the themes folder
+3) Move the theme to the themes folder  
    `mv ./honukai.zsh-theme ./.oh-my-zsh/themes/`
 4) Set theme to honukai  
    `vi .zshrc` -> `ZSH_THEME=honukai`
@@ -36,7 +35,7 @@ Running `yarn restore:git-config` will:
 3) Setup VSCode as a default [mergetool](https://stackoverflow.com/a/44549734)
 
 #### Vim
-VIM settings and config are in [this folder](/vim).
+VIM settings and config are in [this folder](/vim).  
 These files should be copied to the user root.
 
 #### VS Code
@@ -60,4 +59,4 @@ To install all extensions specified in [extensions.yml](./vscode/extensions.yml)
 <img alt="VS Code Extensions" src="./img/vscode.png" width="900px">
 
 #### TODO:
-- [ ] Add symlink setup to avoid file copy
+- [ ] Add symlink setup to avoid moving files and copying config
