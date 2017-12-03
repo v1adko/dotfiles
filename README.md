@@ -3,6 +3,8 @@
 Here I will keep the basic tools, links and config files in order to make transfer to a new MacOS system faster.  
 My editor of choice at the moment is [Visual Studio Code](#vs-code) so most of the config is for it.
 
+<img alt="Repo logo" src="./img/logo.png" width="350px">
+
 #### Terminal
 
 I use [OhMyZsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation) with [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh#installation) theme as my primary shell in [Hyper](https://hyper.is/) and VSCode's integrated terminal.  
@@ -55,8 +57,6 @@ To restore all settings, keybindings and snippets run
 ##### Extensions Installation
 To install all extensions specified in [extensions.yml](./vscode/extensions.yml) run  
 `yarn restore:vscode-extensions`
-
-<img alt="VS Code Extensions" src="./img/vscode.png" width="900px">
 
 #### TODO:
 - [ ] Add symlink setup to avoid moving files and copying config
